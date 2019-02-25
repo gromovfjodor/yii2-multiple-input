@@ -20,13 +20,13 @@ Upgrade from 2.2.0 tp 2.3.0
 Upgrade from 2.0.0 tp 2.0.1
 ---------------------------
 
-- Change namespace prefix `yii\multipleinput\` to `unclead\multipleinput\`.
+- Change namespace prefix `yii\multipleinput\` to `gromovfjodor\multipleinput\`.
 
 Upgrade from 1.4 to 2.0
 -----------------------
 
 - Rename option `limit` to `max`
-- Change namespace prefix `unclead\widgets\` to `yii\multipleinput\`.
+- Change namespace prefix `gromovfjodor\widgets\` to `yii\multipleinput\`.
 
 Upgrade from 1.3 to 1.4
 -----------------------

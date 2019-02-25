@@ -1,14 +1,14 @@
 <?php
 
-namespace unclead\multipleinput\tests\unit;
+namespace gromovfjodor\multipleinput\tests\unit;
 
-use unclead\multipleinput\tests\unit\data\TestModel;
-use unclead\multipleinput\MultipleInput;
-use unclead\multipleinput\MultipleInputColumn;
+use gromovfjodor\multipleinput\tests\unit\data\TestModel;
+use gromovfjodor\multipleinput\MultipleInput;
+use gromovfjodor\multipleinput\MultipleInputColumn;
 
 /**
  * Class MultipleInputTest
- * @package unclead\multipleinput\tests\unit
+ * @package gromovfjodor\multipleinput\tests\unit
  */
 class MultipleInputTest extends TestCase
 {

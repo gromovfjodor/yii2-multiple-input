@@ -1,12 +1,12 @@
 <?php
 
 /**
- * @link https://github.com/unclead/yii2-multiple-input
- * @copyright Copyright (c) 2014 unclead
- * @license https://github.com/unclead/yii2-multiple-input/blob/master/LICENSE.md
+ * @link https://github.com/gromovfjodor/yii2-multiple-input
+ * @copyright Copyright (c) 2014 gromovfjodor
+ * @license https://github.com/gromovfjodor/yii2-multiple-input/blob/master/LICENSE.md
  */
 
-namespace unclead\multipleinput;
+namespace gromovfjodor\multipleinput;
 
 use Yii;
 use yii\base\InvalidConfigException;
@@ -14,12 +14,12 @@ use yii\base\Model;
 use yii\db\ActiveRecordInterface;
 use yii\bootstrap\Widget;
 use yii\widgets\ActiveForm;
-use unclead\multipleinput\renderers\TableRenderer;
-use unclead\multipleinput\renderers\RendererInterface;
+use gromovfjodor\multipleinput\renderers\TableRenderer;
+use gromovfjodor\multipleinput\renderers\RendererInterface;
 
 /**
  * Class TabularInput
- * @package unclead\multipleinput
+ * @package gromovfjodor\multipleinput
  */
 class TabularInput extends Widget
 {
@@ -105,12 +105,12 @@ class TabularInput extends Widget
 
     /**
      * @var string the name of column class. You can specify your own class to extend base functionality.
-     * Defaults to `unclead\multipleinput\TabularColumn`
+     * Defaults to `gromovfjodor\multipleinput\TabularColumn`
      */
     public $columnClass;
 
     /**
-     * @var string the name of renderer class. Defaults to `unclead\multipleinput\renderers\TableRenderer`.
+     * @var string the name of renderer class. Defaults to `gromovfjodor\multipleinput\renderers\TableRenderer`.
      * @since 1.4
      */
     public $rendererClass;

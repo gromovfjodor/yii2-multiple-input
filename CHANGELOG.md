@@ -126,7 +126,7 @@ Yii2 multiple input change log
 2.2.0
 =====
 
-- #104: Fixed preparation of js attributes (Choate, unclead)
+- #104: Fixed preparation of js attributes (Choate, gromovfjodor)
 - Fixed removal of row with index 0 via js api method (pvlg)
 
 
@@ -143,26 +143,26 @@ Yii2 multiple input change log
 2.0.1
 =====
 
-- Bug #105: Change vendor name in namespace from yii to unclead to respect Yii recommendations
+- Bug #105: Change vendor name in namespace from yii to gromovfjodor to respect Yii recommendations
 
 2.0.0
 =====
 
 - Renamed `limit` option to `max`
-- Changed namespace from `unclead\widgets` to `yii\multipleinput`
+- Changed namespace from `gromovfjodor\widgets` to `yii\multipleinput`
 - #92: Adjustments for correct work with AR relations
 - Enh #104: Added method to set value of an particular option
 
 1.4.1
 =====
 
-- #99: Respect "defaultValue" if it is set and current value is empty (unclead)
+- #99: Respect "defaultValue" if it is set and current value is empty (gromovfjodor)
 
 1.4.0
 -----
 
-- #94: added ability to set custom renderer (unclead, bokodi-dev)
-- #97: Respect `addButtonPosition` when rendering the button (unclead)
+- #94: added ability to set custom renderer (gromovfjodor, bokodi-dev)
+- #97: Respect `addButtonPosition` when rendering the button (gromovfjodor)
 
 1.3.1
 -----
@@ -172,10 +172,10 @@ Yii2 multiple input change log
 1.3.0
 -----
 
-- #79 Added support for embedded MultipleInput widget (unclead, execut)
-- Enh: Added ability to render `add` button in the footer (unclead)
-- Enh: Improving for better work without ActiveForm (unclead)
-- Enh: Added ability to render `add` button at several positions (unclead)
+- #79 Added support for embedded MultipleInput widget (gromovfjodor, execut)
+- Enh: Added ability to render `add` button in the footer (gromovfjodor)
+- Enh: Improving for better work without ActiveForm (gromovfjodor)
+- Enh: Added ability to render `add` button at several positions (gromovfjodor)
 
 1.2.19
 ------
@@ -230,7 +230,7 @@ Yii2 multiple input change log
 1.2.10
 ------
 
-- Enh #59 Added columnClass property (unclead)
+- Enh #59 Added columnClass property (gromovfjodor)
 
 1.2.9
 -----
@@ -271,15 +271,15 @@ Yii2 multiple input change log
 1.2.3
 -----
 
-- Enh #34: Added option `allowEmptyList` (unclead)
-- Enh #35: Added option `enableGuessTitle` for MultipleInput (unclead)
+- Enh #34: Added option `allowEmptyList` (gromovfjodor)
+- Enh #35: Added option `enableGuessTitle` for MultipleInput (gromovfjodor)
 - Bug #36: Use PCRE_MULTILINE modifier in regex
 
 1.2.2
 -----
 
-- Enh #31: Added support of anonymous function for `items` attribute (unclead, stepancher)
-- Enh: added hidden field for radio and checkbox inputs (unclead, kotchuprik)
+- Enh #31: Added support of anonymous function for `items` attribute (gromovfjodor, stepancher)
+- Enh: added hidden field for radio and checkbox inputs (gromovfjodor, kotchuprik)
 - Enh: improved css (fiamma06)
 
 1.2.1
@@ -291,40 +291,40 @@ Yii2 multiple input change log
 1.2.0
 -----
 
-- Bug #19 Refactoring rendering of inputs (unclead)
-- Bug #20 Added hasAttribute checking for AR models (unclead)
-- Enh #22 Added `TabularInput` widget (unclead), rendering logic has been moved to separate class (renderer)
+- Bug #19 Refactoring rendering of inputs (gromovfjodor)
+- Bug #20 Added hasAttribute checking for AR models (gromovfjodor)
+- Enh #22 Added `TabularInput` widget (gromovfjodor), rendering logic has been moved to separate class (renderer)
 
 1.1.0
 -----
 
-- Bug #17: display inline errors (unclead, mikbox74)
-- Enh #11: Improve js events (unclead)
-- Bug #16: correct use of defaultValue property (unclead)
-- code improvements (unclead)
+- Bug #17: display inline errors (gromovfjodor, mikbox74)
+- Enh #11: Improve js events (gromovfjodor)
+- Bug #16: correct use of defaultValue property (gromovfjodor)
+- code improvements (gromovfjodor)
 
 1.0.4
 --------------------
 
-- Bug #15: Fix setting current values of dropDownList (unclead)
-- Bug #16: fix render of dropDown and similar inputs (unclead)
+- Bug #15: Fix setting current values of dropDownList (gromovfjodor)
+- Bug #16: fix render of dropDown and similar inputs (gromovfjodor)
 - Enh: Add attributeOptions property
 
 1.0.3
 -----
-- Bug: Hidden fields no longer break markup (unclead, kotchuprik)
+- Bug: Hidden fields no longer break markup (gromovfjodor, kotchuprik)
 
 1.0.2
 -----
 
-- Enh: added minified version of js script (unclead)
-- Enh #8: renamed placeholders for avoid conflicts with other widgets (unclead)
+- Enh: added minified version of js script (gromovfjodor)
+- Enh #8: renamed placeholders for avoid conflicts with other widgets (gromovfjodor)
 - Enh #7: customization of header cell
 
 1.0.1
 -----
 
-- Enh #1: Implemented ability to use widget as column type (unclead)
+- Enh #1: Implemented ability to use widget as column type (gromovfjodor)
 - Enh: add js events (ZAYEC77)
 
 1.0.0

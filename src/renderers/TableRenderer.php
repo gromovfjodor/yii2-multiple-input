@@ -1,22 +1,22 @@
 <?php
 
 /**
- * @link https://github.com/unclead/yii2-multiple-input
- * @copyright Copyright (c) 2014 unclead
- * @license https://github.com/unclead/yii2-multiple-input/blob/master/LICENSE.md
+ * @link https://github.com/gromovfjodor/yii2-multiple-input
+ * @copyright Copyright (c) 2014 gromovfjodor
+ * @license https://github.com/gromovfjodor/yii2-multiple-input/blob/master/LICENSE.md
  */
 
-namespace unclead\multipleinput\renderers;
+namespace gromovfjodor\multipleinput\renderers;
 
 use yii\base\InvalidConfigException;
 use yii\db\ActiveRecordInterface;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
-use unclead\multipleinput\components\BaseColumn;
+use gromovfjodor\multipleinput\components\BaseColumn;
 
 /**
  * Class TableRenderer
- * @package unclead\multipleinput\renderers
+ * @package gromovfjodor\multipleinput\renderers
  */
 class TableRenderer extends BaseRenderer
 {

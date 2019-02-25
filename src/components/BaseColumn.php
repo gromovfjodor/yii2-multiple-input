@@ -1,12 +1,12 @@
 <?php
 
 /**
- * @link https://github.com/unclead/yii2-multiple-input
- * @copyright Copyright (c) 2014 unclead
- * @license https://github.com/unclead/yii2-multiple-input/blob/master/LICENSE.md
+ * @link https://github.com/gromovfjodor/yii2-multiple-input
+ * @copyright Copyright (c) 2014 gromovfjodor
+ * @license https://github.com/gromovfjodor/yii2-multiple-input/blob/master/LICENSE.md
  */
 
-namespace unclead\multipleinput\components;
+namespace gromovfjodor\multipleinput\components;
 
 use Closure;
 use Yii;
@@ -18,12 +18,12 @@ use yii\db\ActiveRecordInterface;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
 use yii\helpers\Inflector;
-use unclead\multipleinput\renderers\BaseRenderer;
+use gromovfjodor\multipleinput\renderers\BaseRenderer;
 
 /**
  * Class BaseColumn.
  *
- * @package unclead\multipleinput\components
+ * @package gromovfjodor\multipleinput\components
  */
 abstract class BaseColumn extends BaseObject
 {

@@ -1,12 +1,12 @@
 <?php
 
-namespace unclead\multipleinput\tests\unit\data;
+namespace gromovfjodor\multipleinput\tests\unit\data;
 
 use yii\base\Model;
 
 /**
  * Class TestModel
- * @package unclead\multipleinput\tests\unit\data
+ * @package gromovfjodor\multipleinput\tests\unit\data
  */
 class TestModel extends Model
 {

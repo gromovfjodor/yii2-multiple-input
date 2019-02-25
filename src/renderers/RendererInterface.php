@@ -1,17 +1,17 @@
 <?php
 
 /**
- * @link https://github.com/unclead/yii2-multiple-input
- * @copyright Copyright (c) 2014 unclead
- * @license https://github.com/unclead/yii2-multiple-input/blob/master/LICENSE.md
+ * @link https://github.com/gromovfjodor/yii2-multiple-input
+ * @copyright Copyright (c) 2014 gromovfjodor
+ * @license https://github.com/gromovfjodor/yii2-multiple-input/blob/master/LICENSE.md
  */
 
-namespace unclead\multipleinput\renderers;
+namespace gromovfjodor\multipleinput\renderers;
 
 
 /**
  * Interface RendererInterface
- * @package unclead\multipleinput\renderers
+ * @package gromovfjodor\multipleinput\renderers
  */
 interface RendererInterface
 {

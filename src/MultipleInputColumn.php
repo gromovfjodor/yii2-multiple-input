@@ -1,23 +1,23 @@
 <?php
 
 /**
- * @link https://github.com/unclead/yii2-multiple-input
- * @copyright Copyright (c) 2014 unclead
- * @license https://github.com/unclead/yii2-multiple-input/blob/master/LICENSE.md
+ * @link https://github.com/gromovfjodor/yii2-multiple-input
+ * @copyright Copyright (c) 2014 gromovfjodor
+ * @license https://github.com/gromovfjodor/yii2-multiple-input/blob/master/LICENSE.md
  */
 
-namespace unclead\multipleinput;
+namespace gromovfjodor\multipleinput;
 
 use yii\base\InvalidConfigException;
 use yii\base\Model;
 use yii\base\DynamicModel;
 use yii\db\ActiveRecordInterface;
 use yii\helpers\Html;
-use unclead\multipleinput\components\BaseColumn;
+use gromovfjodor\multipleinput\components\BaseColumn;
 
 /**
  * Class MultipleInputColumn
- * @package unclead\multipleinput
+ * @package gromovfjodor\multipleinput
  *
  * @property MultipleInput $context
  */
@@ -162,7 +162,7 @@ class MultipleInputColumn extends BaseColumn
 
             // Remember current name and mark the widget as embedded to prevent
             // generation of wrong prefix in case when column is associated with AR relation
-            // @see https://github.com/unclead/yii2-multiple-input/issues/92
+            // @see https://github.com/gromovfjodor/yii2-multiple-input/issues/92
             $options['name'] = $name;
             $options['isEmbedded'] = true;
         }

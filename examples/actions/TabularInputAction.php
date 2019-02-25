@@ -1,15 +1,15 @@
 <?php
 
 /**
- * @link https://github.com/unclead/yii2-multiple-input
- * @copyright Copyright (c) 2014 unclead
- * @license https://github.com/unclead/yii2-multiple-input/blob/master/LICENSE.md
+ * @link https://github.com/gromovfjodor/yii2-multiple-input
+ * @copyright Copyright (c) 2014 gromovfjodor
+ * @license https://github.com/gromovfjodor/yii2-multiple-input/blob/master/LICENSE.md
  */
 
-namespace unclead\multipleinput\examples\actions;
+namespace gromovfjodor\multipleinput\examples\actions;
 
 use Yii;
-use unclead\multipleinput\examples\models\Item;
+use gromovfjodor\multipleinput\examples\models\Item;
 use yii\base\Action;
 use yii\base\Model;
 use yii\bootstrap\ActiveForm;
@@ -17,13 +17,13 @@ use yii\web\Response;
 
 /**
  * Class TabularInputAction
- * @package unclead\multipleinput\examples\actions
+ * @package gromovfjodor\multipleinput\examples\actions
  */
 class TabularInputAction extends Action
 {
     public function run()
     {
-        Yii::setAlias('@unclead-examples', dirname(__DIR__) . '/');
+        Yii::setAlias('@gromovfjodor-examples', dirname(__DIR__) . '/');
 
         $models = $this->getItems();
 
@@ -43,7 +43,7 @@ class TabularInputAction extends Action
             // your magic
         }
 
-        return $this->controller->render('@unclead-examples/views/tabular-input.php', ['models' => $models]);
+        return $this->controller->render('@gromovfjodor-examples/views/tabular-input.php', ['models' => $models]);
     }
 
     private function getItems()

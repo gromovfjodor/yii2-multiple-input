@@ -1,19 +1,19 @@
 <?php
 
 /**
- * @link https://github.com/unclead/yii2-multiple-input
- * @copyright Copyright (c) 2014 unclead
- * @license https://github.com/unclead/yii2-multiple-input/blob/master/LICENSE.md
+ * @link https://github.com/gromovfjodor/yii2-multiple-input
+ * @copyright Copyright (c) 2014 gromovfjodor
+ * @license https://github.com/gromovfjodor/yii2-multiple-input/blob/master/LICENSE.md
  */
 
-namespace unclead\multipleinput\examples\models;
+namespace gromovfjodor\multipleinput\examples\models;
 
 use Yii;
 use yii\base\Model;
 
 /**
  * Class Item
- * @package unclead\multipleinput\examples\models
+ * @package gromovfjodor\multipleinput\examples\models
  */
 class Item extends Model
 {

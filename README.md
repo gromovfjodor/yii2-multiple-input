@@ -1,11 +1,11 @@
 # Yii2 Multiple input widget.
 Yii2 widget for handle multiple inputs for an attribute of model and tabular input for batch of models.
 
-[![Latest Stable Version](https://poser.pugx.org/unclead/yii2-multiple-input/v/stable)](https://packagist.org/packages/unclead/yii2-multiple-input)
-[![Total Downloads](https://poser.pugx.org/unclead/yii2-multiple-input/downloads)](https://packagist.org/packages/unclead/yii2-multiple-input)
-[![Daily Downloads](https://poser.pugx.org/unclead/yii2-multiple-input/d/daily)](https://packagist.org/packages/unclead/yii2-multiple-input)
-[![Latest Unstable Version](https://poser.pugx.org/unclead/yii2-multiple-input/v/unstable)](https://packagist.org/packages/unclead/yii2-multiple-input) 
-[![License](https://poser.pugx.org/unclead/yii2-multiple-input/license)](https://packagist.org/packages/unclead/yii2-multiple-input)
+[![Latest Stable Version](https://poser.pugx.org/gromovfjodor/yii2-multiple-input/v/stable)](https://packagist.org/packages/gromovfjodor/yii2-multiple-input)
+[![Total Downloads](https://poser.pugx.org/gromovfjodor/yii2-multiple-input/downloads)](https://packagist.org/packages/gromovfjodor/yii2-multiple-input)
+[![Daily Downloads](https://poser.pugx.org/gromovfjodor/yii2-multiple-input/d/daily)](https://packagist.org/packages/gromovfjodor/yii2-multiple-input)
+[![Latest Unstable Version](https://poser.pugx.org/gromovfjodor/yii2-multiple-input/v/unstable)](https://packagist.org/packages/gromovfjodor/yii2-multiple-input) 
+[![License](https://poser.pugx.org/gromovfjodor/yii2-multiple-input/license)](https://packagist.org/packages/gromovfjodor/yii2-multiple-input)
 
 ## Latest release
 The latest stable version of the extension is v2.19.0 Follow the [instruction](./UPGRADE.md) for upgrading from previous versions
@@ -16,13 +16,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require  unclead/yii2-multiple-input "~2.0"
+php composer.phar require  gromovfjodor/yii2-multiple-input "~2.0"
 ```
 
 or add
 
 ```
-"unclead/yii2-multiple-input": "~2.0"
+"gromovfjodor/yii2-multiple-input": "~2.0"
 ```
 
 to the require section of your `composer.json` file.
@@ -35,7 +35,7 @@ For example you want to have an ability of entering several emails of user on pr
 In this case you can use yii2-multiple-input widget like in the following code
 
 ```php
-use unclead\multipleinput\MultipleInput;
+use gromovfjodor\multipleinput\MultipleInput;
 
 ...
 
@@ -50,17 +50,17 @@ use unclead\multipleinput\MultipleInput;
     ->label(false);
 ?>
 ```
-See more in [single column](https://github.com/unclead/yii2-multiple-input/wiki/Usage#one-column)
+See more in [single column](https://github.com/gromovfjodor/yii2-multiple-input/wiki/Usage#one-column)
 
 ## Advanced usage
 
-![Multiple columns example](https://raw.githubusercontent.com/unclead/yii2-multiple-input/master/resources/images/multiple-column.gif)
+![Multiple columns example](https://raw.githubusercontent.com/gromovfjodor/yii2-multiple-input/master/resources/images/multiple-column.gif)
 
 For example you want to have an interface for manage user schedule. For simplicity we will store the schedule in json string.
 In this case you can use yii2-multiple-input widget like in the following code
 
 ```php
-use unclead\multipleinput\MultipleInput;
+use gromovfjodor\multipleinput\MultipleInput;
 
 ...
 
@@ -107,12 +107,12 @@ use unclead\multipleinput\MultipleInput;
  ]);
 ?>
 ```
-See more in [multiple columns](https://github.com/unclead/yii2-multiple-input/wiki/Usage#multiple-columns)
+See more in [multiple columns](https://github.com/gromovfjodor/yii2-multiple-input/wiki/Usage#multiple-columns)
 
 ### Clone filled rows
-![Clone button example](https://raw.githubusercontent.com/unclead/yii2-multiple-input/master/resources/images/clone-button.gif)
+![Clone button example](https://raw.githubusercontent.com/gromovfjodor/yii2-multiple-input/master/resources/images/clone-button.gif)
 ```php
-use unclead\multipleinput\MultipleInput;
+use gromovfjodor\multipleinput\MultipleInput;
 
 ...
 
@@ -190,7 +190,7 @@ If you do none of the above, the default behavior which assumes you are using gl
 
 ## Documentation
 
-You can find a full version of documentation in [wiki](https://github.com/unclead/yii2-multiple-input/wiki/)
+You can find a full version of documentation in [wiki](https://github.com/gromovfjodor/yii2-multiple-input/wiki/)
 
 
 ## License

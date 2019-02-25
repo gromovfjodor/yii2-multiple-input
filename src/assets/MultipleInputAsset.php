@@ -1,18 +1,18 @@
 <?php
 
 /**
- * @link https://github.com/unclead/yii2-multiple-input
- * @copyright Copyright (c) 2014 unclead
- * @license https://github.com/unclead/yii2-multiple-input/blob/master/LICENSE.md
+ * @link https://github.com/gromovfjodor/yii2-multiple-input
+ * @copyright Copyright (c) 2014 gromovfjodor
+ * @license https://github.com/gromovfjodor/yii2-multiple-input/blob/master/LICENSE.md
  */
 
-namespace unclead\multipleinput\assets;
+namespace gromovfjodor\multipleinput\assets;
 
 use yii\web\AssetBundle;
 
 /**
  * Class MultipleInputAsset
- * @package unclead\multipleinput\assets
+ * @package gromovfjodor\multipleinput\assets
  */
 class MultipleInputAsset extends AssetBundle
 {

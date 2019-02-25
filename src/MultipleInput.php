@@ -1,12 +1,12 @@
 <?php
 
 /**
- * @link https://github.com/unclead/yii2-multiple-input
- * @copyright Copyright (c) 2014 unclead
- * @license https://github.com/unclead/yii2-multiple-input/blob/master/LICENSE.md
+ * @link https://github.com/gromovfjodor/yii2-multiple-input
+ * @copyright Copyright (c) 2014 gromovfjodor
+ * @license https://github.com/gromovfjodor/yii2-multiple-input/blob/master/LICENSE.md
  */
 
-namespace unclead\multipleinput;
+namespace gromovfjodor\multipleinput;
 
 use Yii;
 use yii\base\InvalidConfigException;
@@ -16,14 +16,14 @@ use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 use yii\widgets\InputWidget;
 use yii\db\ActiveRecordInterface;
-use unclead\multipleinput\renderers\TableRenderer;
-use unclead\multipleinput\renderers\RendererInterface;
+use gromovfjodor\multipleinput\renderers\TableRenderer;
+use gromovfjodor\multipleinput\renderers\RendererInterface;
 
 
 /**
  * Widget for rendering multiple input for an attribute of model.
  *
- * @author Eugene Tupikov <unclead.nsk@gmail.com>
+ * @author Eugene Tupikov <gromovfjodor.nsk@gmail.com>
  */
 class MultipleInput extends InputWidget
 {
@@ -113,12 +113,12 @@ class MultipleInput extends InputWidget
 
     /**
      * @var string the name of column class. You can specify your own class to extend base functionality.
-     * Defaults to `unclead\multipleinput\MultipleInputColumn`
+     * Defaults to `gromovfjodor\multipleinput\MultipleInputColumn`
      */
     public $columnClass;
 
     /**
-     * @var string the name of renderer class. Defaults to `unclead\multipleinput\renderers\TableRenderer`.
+     * @var string the name of renderer class. Defaults to `gromovfjodor\multipleinput\renderers\TableRenderer`.
      * @since 1.4
      */
     public $rendererClass;
